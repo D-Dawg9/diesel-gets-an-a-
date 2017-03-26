@@ -1,1 +1,2 @@
-# diesel-gets-an-a-
+# Diesel's prject for school
+  Software is digital, such as a website or database, while hardware is solid, such as a computer or a router. There are two types of software, front end and back end. Front end is everything you see and can interact with such as the home page on a website to the notorious Google logo. Back end software is basically the systems in a website that do the computing such as the commands that tell you how much you would weigh on mars to the code that goes into your calculator. 
