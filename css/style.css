@@ -14,7 +14,7 @@ html {
 body {
   font-size: 1.6rem;
   color: #edeade;
-  background-color: #43202f;
+  background-color: #1b2936;
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -151,6 +151,7 @@ Portfolio Projects
   height: 25vh;
   position: relative;
   z-index: 1;
+  padding-left: 0;
   /* position its children in a 3d space */
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -324,7 +325,7 @@ Portfolio Projects
 }
 .cd-3d-portfolio .projects .row > li.project-1 .project-image::before {
   /* set project background image */
-  background-image: url(../img/photo-1.jpg);
+  background-image: url(../img/thehovas.jpg);
 }
 .cd-3d-portfolio .projects .row > li.project-2 .project-image::before {
   background-image: url(../img/photo-2.jpg);
@@ -333,7 +334,7 @@ Portfolio Projects
   background-image: url(../img/photo-3.jpg);
 }
 .cd-3d-portfolio .projects .row > li.project-4 .project-image::before {
-  background-image: url(../img/photo-4.jpg);
+  background-image: url(../img/hovalin.jpg);
 }
 .cd-3d-portfolio .projects .row > li.project-5 .project-image::before {
   background-image: url(../img/photo-5.jpg);
@@ -342,7 +343,7 @@ Portfolio Projects
   background-image: url(../img/photo-6.jpg);
 }
 .cd-3d-portfolio .projects .row > li.project-7 .project-image::before {
-  background-image: url(../img/photo-7.jpg);
+  background-image: url(../img/printer.jpg);
 }
 .cd-3d-portfolio .projects .row > li.project-8 .project-image::before {
   background-image: url(../img/photo-8.jpg);
@@ -394,7 +395,7 @@ Portfolio Projects
   max-width: 800px;
   margin: 2em auto;
   line-height: 1.6;
-  color: #694d59;
+  color: #1b2936;
 }
 strong{
   font-weight: 700;
@@ -404,7 +405,7 @@ strong{
   max-width: 800px;
   margin: 2em auto;
   line-height: 1.6;
-  color: #694d59;
+  color: #1b2936;
   margin-bottom: -40px;
 }
 
@@ -413,7 +414,7 @@ strong{
   max-width: 800px;
   margin: 2em auto;
   line-height: 1.6;
-  color: #694d59;
+  color: #1b2936;
   margin-bottom: -40px;
 }
 .cd-3d-portfolio .projects.project-has-transition .row > li {

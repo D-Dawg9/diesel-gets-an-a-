@@ -6,7 +6,7 @@
 
 @import '../partials/layout'; // responsive grid and media queries
 
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -35,9 +35,9 @@ a {
 	text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Portfolio Navigation 
+Portfolio Navigation
 
 -------------------------------- */
 
@@ -92,9 +92,9 @@ Portfolio Navigation
 	}
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Portfolio Projects 
+Portfolio Projects
 
 -------------------------------- */
 
@@ -143,7 +143,7 @@ Portfolio Projects
 		}
 	}
 
-	.project-is-open .open .close-project { 
+	.project-is-open .open .close-project {
 		/* show the 'X' icon when a project has been selected */
 		transform: scale(1);
 		transition-delay: $open-animation;
@@ -293,7 +293,7 @@ Portfolio Projects
 
 		&::before {
 			/* this is the project background image */
-			z-index: 1;	
+			z-index: 1;
 			height: 240%;
 			background-color: darken($color-1, 10%);
 			background-position: center center;
@@ -327,7 +327,7 @@ Portfolio Projects
 
 		.project-image::before {
 			/* set project background image */
-			background-image: url(../img/photo-1.jpg);
+			background-image: url(../img/thehovas.jpg);
 		}
 	}
 
@@ -339,49 +339,49 @@ Portfolio Projects
 	}
 
 	.row > li.project-3 {
-		
+
 		.project-image::before {
 			background-image: url(../img/photo-3.jpg);
 		}
 	}
 
 	.row > li.project-4 {
-		
+
 		.project-image::before {
-			background-image: url(../img/photo-4.jpg);
+			background-image: url(../img/hovalin.jpg);
 		}
 	}
 
 	.row > li.project-5 {
-		
+
 		.project-image::before {
 			background-image: url(../img/photo-5.jpg);
 		}
 	}
 
 	.row > li.project-6 {
-		
+
 		.project-image::before {
 			background-image: url(../img/photo-6.jpg);
 		}
 	}
 
 	.row > li.project-7 {
-		
+
 		.project-image::before {
-			background-image: url(../img/photo-7.jpg);
+			background-image: url(../img/printer.jpg);
 		}
 	}
 
 	.row > li.project-8 {
-		
+
 		.project-image::before {
 			background-image: url(../img/photo-8.jpg);
 		}
 	}
 
 	.row > li.project-9 {
-		
+
 		.project-image::before {
 			background-image: url(../img/photo-9.jpg);
 		}
@@ -626,9 +626,9 @@ Portfolio Projects
 	}
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Back to top 
+Back to top
 
 -------------------------------- */
 
@@ -641,7 +641,7 @@ Back to top
 	height: 48px;
 	width: 48px;
 	/* replace text with image */
-	overflow: hidden; 
+	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
 	background: rgba(#000, .6) url(../img/cd-icon-arrow.svg) no-repeat center center;
