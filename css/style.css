@@ -46,6 +46,7 @@ Portfolio Navigation
   margin-bottom: .6em;
   font-family: "Lora", serif;
   font-weight: bold;
+  margin-bottom: 0;
 }
 .cd-3d-portfolio-navigation li {
   display: inline-block;
@@ -71,7 +72,7 @@ Portfolio Navigation
 }
 @media only screen and (min-width: 768px) {
   .cd-3d-portfolio-navigation h1 {
-    font-size: 3.2rem;
+    font-size: 5.2rem;
   }
 }
 
