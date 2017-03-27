@@ -405,6 +405,16 @@ strong{
   margin: 2em auto;
   line-height: 1.6;
   color: #694d59;
+  margin-bottom: -40px;
+}
+
+.cd-3d-portfolio .projects .project-content ul {
+  width: 90%;
+  max-width: 800px;
+  margin: 2em auto;
+  line-height: 1.6;
+  color: #694d59;
+  margin-bottom: -40px;
 }
 .cd-3d-portfolio .projects.project-has-transition .row > li {
   /* the project-has-transition class is used to add a transition to the tranform property of the single projects - it's added when a project is selected (before opening it) and removed when a project is colsed (when the closing animation is finished) */
